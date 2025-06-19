@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    padding: 0.3rem;
+    position: fixed;
+    width: 100%;
+    border-radius: 10px;
+    z-index: 10;
+}
+
+nav a{
+    color: white;
+}
+
+html, body{
+    height: 100%;
+    scroll-behavior: smooth;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+nav ul{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;   
+}
+
+nav ul li{
+    text-decoration: none;
+    list-style: none;
+    padding: 1rem;
+    text-transform: uppercase;
+}
+
+a{
+    text-decoration: none;
+}
+
+main{
+    height: 100vh;
+    padding-top: 5rem;
+    background: linear-gradient(to top, rgba(255, 255, 255, 0.475), rgba(0, 0, 255, 0.425)), url(../images/top-view-desk-concept-with-laptop.jpg) no-repeat;
+    background-size: cover;
+}
+
+.all_tabs{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    align-content: center;
+    align-items: center;
+}
+
+.all_tabs p{
+    padding: 20px;
+    font-size: 1.5rem;
+}
+
+
+.square1{
+    display: flex;
+    color: rgb(255, 255, 255);
+    
+    
+}
+
+.square2{
+    display: flex;
+    color: rgb(255, 255, 255);
+    
+    
+}
+
+
+
+.first{
+    background-color: rgba(29, 144, 245, 0.5);
+    color: white;
+    width: 600px;
+}
+.second{
+    background-color: rgba(237, 230, 230, 0.5);
+    color: black;
+    width: 600px;
+}
+.third{
+    background-color: rgba(237, 228, 228, 0.5);
+    color: rgb(0, 0, 0);
+    width: 600px;
+}
+.forth{
+    background-color: rgba(29, 144, 245, 0.5);
+    color: rgb(255, 255, 255);
+    width: 600px;
+    height: ;
+}
+
+.first:hover{
+    background-color: rgba(255, 255, 255, 0.5);
+    color: rgba(29, 144, 245);
+}
+
+
+.second:hover{
+    background-color: rgba(15, 15, 15, 0.5);
+    color: rgba(237, 230, 230);
+}
+.third:hover{
+    background-color: rgba(0, 0, 0, 0.5);
+    color: rgba(237, 230, 230);
+}
+.forth:hover{
+    background-color: rgba(255, 255, 255, 0.5);
+    color: rgba(29, 144, 245);
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+footer{
+    color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    background-color: rgb(36, 29, 29);
+}
+
+.hero-section h1{
+    display: flex;
+    justify-content: center;
+    color: rgb(0, 0, 0);
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+}
