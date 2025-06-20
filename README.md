@@ -9,3 +9,7 @@ COMPUTER SCIENCE
 [![Hassan's GitHub activity graph](https://github-readme-activity-graph.vercel.app/graph?username=HassanSheriff&theme=react-dark)](https://github.com/Ashutosh00710/github-readme-activity-graph)
 
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=HassanSheriff&layout=compact&theme=radical)
+
+<p align="center">
+  <img src="images/fa398c36-e055-474c-9c52-50a15fdaf164.png" alt="Banner" width="100%" />
+</p>
